@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Scoreboard</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <iframe id="iframe-ldfhcjdxrkr" src="https://keepthescore.co/embed/ldfhcjdxrkr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight}px`;}};</script>
+    <div class="container">
+        <iframe id="iframe-ldfhcjdxrkr" src="https://keepthescore.co/embed/ldfhcjdxrkr/" style="width:100%;border:none;"></iframe><script>window.onmessage = (e) => {if (e.data.hasOwnProperty("frameHeight")){document.getElementById("iframe-" + e.data.board_token).style.height = `${e.data.frameHeight}px`;}};</script>
+    </div>
 </body>
 </html>

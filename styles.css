@@ -3,10 +3,6 @@ body {
     background-size: cover;
 }
 
-/* img#header-image.img-responsive.mx-auto.d-block {
-    width: 300px!important;
-} */
-
 @media (min-width: 784px) {
     .container {
         width: 50%;
@@ -14,9 +10,8 @@ body {
     }
 }
 
-/* @media (max-width: 784px) {
-    .container {
-        width: 90%;
-        margin: auto;
+@media (max-width: 784px) {
+    body {
+        background-color: #0c62fb;
     }
-} */
+}

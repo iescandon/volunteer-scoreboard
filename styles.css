@@ -1,6 +1,8 @@
 body {
     background-image: url(images/houston.jpg);
     background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
 }
 
 @media (min-width: 784px) {
@@ -10,8 +12,9 @@ body {
     }
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
     body {
         background-color: #0c62fb;
+        background-image: url();
     }
 }
